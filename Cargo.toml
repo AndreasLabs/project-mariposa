@@ -1,0 +1,2 @@
+[workspace]
+members = ["mariposa_broker", "mariposa_core", "mariposa_sdk", "mariposa_tester"]
