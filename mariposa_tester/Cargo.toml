@@ -1,6 +1,13 @@
 [package]
 name = "mariposa_tester"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
 
 [dependencies]
+prost = "0.13.5"
+prost-reflect = "0.14.7"
+arrow = { version = "54.0.0", features = ["prettyprint"] }
+colored = "2.1.0"
+
+[build-dependencies]
+prost-build = "0.13.5"

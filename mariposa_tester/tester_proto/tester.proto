@@ -1,0 +1,25 @@
+syntax = "proto3";
+package tester;
+
+message TestPoseMessage {
+    Vector3 position = 1;
+    Vector3 velocity = 2;
+    Vector3 acceleration = 3;
+    Quaternion orientation = 4;
+    Vector3 angular_velocity = 5;
+    Vector3 angular_acceleration = 6;
+}
+
+message Vector3 {
+    float x = 1;
+    float y = 2;
+    float z = 3;
+}
+
+message Quaternion {
+    float x = 1;
+    float y = 2;
+    float z = 3;
+    float w = 4;
+}
+
